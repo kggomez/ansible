@@ -9,3 +9,6 @@
      - unzip
      - java-1.7.0-openjdk
      - vim
+  - name: ver hostname
+    debug:
+      msg: "este sistema es {{ inventory_hostname }} y su uuid es {{ ansible_product_uuid }}"
