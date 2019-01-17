@@ -12,3 +12,6 @@
   - name: ver hostname
     debug:
       msg: "este sistema es {{ inventory_hostname }} y su uuid es {{ ansible_product_uuid }}"
+  - name: ver variable
+    debug:
+      msg: "este playbook lo invoco {{ minombre }}"
